@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "iostream": "cpp",
+        "ratio": "cpp",
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "vector": "cpp",
+        "list": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "utility": "cpp",
+        "valarray": "cpp",
+        "cmath": "cpp",
+        "set": "cpp"
+    }
+}
