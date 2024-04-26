@@ -19,8 +19,8 @@ int main() {
   }
 
   if (count <= 1) {
-    cout << "True";
+    cout << "Given array is a cyclic or sorted";
   } else {
-    cout << "False";
+    cout << "Given array is not a cyclic or sorted";
   }
 }
