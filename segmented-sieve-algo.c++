@@ -1,4 +1,5 @@
 // Segmented sieve algorithm
+// https://www.scaler.com/topics/segmented-sieve/
 #include <iostream>
 #include <vector>
 using namespace std;

@@ -1,14 +1,17 @@
 #include <iostream>
 using namespace std;
 
-int factorial(int value) {
-  int get = 1;
+long long int factorial(int value) {
+  long long int get = 1;
+  const unsigned int mod = 1000000007;
 
   if (value <= 0)
     return 1;
 
   while (value != 0) {
-    get = get * value;
+    cout << "went inside => " << value << " times"
+         << " get is " << get << endl;
+    get = (get * value);
     value--;
   }
   cout << "the value of get is " << get << endl;
@@ -16,12 +19,13 @@ int factorial(int value) {
 }
 
 int main() {
-  int n, r, ans;
-  //   ans = pow();
+  long long int n, r, ans;
+  const unsigned int mod = 1000000007;
+  
   cout << "To find the NCR give us value of n and r here ";
   cin >> n >> r;
 
-  ans = factorial(n) / (factorial(r) * factorial(n - r));
+  ans = (factorial(n) / (factorial(r) * factorial(n - r))) % mod;
 
   cout << "answer is " << ans << endl;
 }
